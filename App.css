@@ -1,0 +1,99 @@
+.main-wrapper {
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color:#ffffff;
+  padding:20px; 
+  width: 90%;
+  max-width: 740px;
+}
+
+.box h1 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center
+}
+
+.box .form-group {
+  display: block;
+  width:100%;
+  margin-bottom:15px;
+}
+
+.box .form-group label {
+  font-size:12px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.box .form-group input[type="text"] {
+  background-color:#f8f9fa;
+  border:1px solid #e2e2e2;
+  height:60px;
+  font-size:22px;
+  padding:0 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-top:5px;
+  width:100%;
+  max-width: 430px;
+}
+
+.box .form-group button {
+  border:0;
+  background-color:#1ebea5;
+  height:60px;
+  border-radius:60px;
+  color:#fff;
+  font-size:18px;
+  padding:0 25px;
+  margin:auto;
+  cursor:pointer
+}
+
+.box .form-group button:hover {
+  background-color:#1ca389;
+}
+
+.box .form-group.copy input[type="text"] {
+  background-color:#e4f0e4;
+  border:1px solid #e4f0e4;
+  cursor:pointer;
+  background-image:url('/img/copy.svg');
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  padding-right: 45px;
+}
+
+.box .alert {
+  display:block;
+  margin-top:10px;
+  padding:15px;
+  text-align: center;
+  background-color:#fefefe;
+  border:1px solid #eee;
+  width: 100%;
+  max-width: 430px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.btn.btn-primary {
+  padding: 10px 25px;
+  display: inline-block;
+  border: 2px solid #1ebea5;
+  color: #1ebea5;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.btn.btn-primary:hover {
+  opacity: .8
+}
